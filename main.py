@@ -18,8 +18,21 @@ my_gamble = dice1 + dice2 + dice3 + dice4 +dice5
 first_random = randint(1,20)
 if first_random == 8:
   print("roll again")
-elif print("roll again")
+else:
+  print("roll again")
 first_random = randint
+
+dictionary1 = {} #empty dictionary
+color = ['blue', 'red', 'green', 'turquoise', 'purple']
+my_random = choice(color)
+print(my_random)
+
+my characters = ['rouge', 'elf', 'knight', 'ninja', 'samurai']
+for character in my_characters:
+  if my_gamble == character[0]:
+    print(character)
+  else:
+    print(my_gamble)
   # from random import shuffle
   # # This shuffles the list "in-place" meaning it won't return
   # # anything, instead it will effect the list passed
